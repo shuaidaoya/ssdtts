@@ -12,7 +12,7 @@
 <body>
   <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" target="_blank" href="https://github.com/yy4382/ms-ra-forwarder-for-ifreetime">帅帅的微软TTS音频服务镜像站</a>
+      <a class="navbar-brand" target="_blank" href="https://github.com/yy4382/ms-ra-forwarder-for-ifreetime">帅帅的 TTS音频服务镜像站</a>
       <ul class="navbar-nav d-flex flex-row justify-content-between align-items-center">
         <li class="nav-item">
           <a class="github-button" href="https://github.com/yy4382/ms-ra-forwarder-for-ifreetime" data-size="large"
@@ -88,15 +88,15 @@
         <div class="row">
           <div class="col">
             <label for="previewText" class="form-label">测试文本：</label>
-            <textarea name="previewText" class="form-control" rows="3" cols="">  第一章：“陨落的天才 ”</textarea>
+            <textarea name="previewText" class="form-control" rows="3" cols="">>   第一章：“陨落的天才 ” \n “曾经的天才萧炎，已沦落为被人看不起的废物。”</textarea>
           </div>
         </div>
         <div style="height:20px"></div>
         <div class="row">
           <div class="col">
-            <button style="margin-top: 20px; margin-bottom: 20px;" id="previewButton" type="button" class="btn btn-secondary" onclick="preview()">测试</button>
-            <button style="margin-top: 20px; margin-bottom: 20px;" type="button" class="btn btn-primary" onclick='createLegadoUrl()'>生成阅读（legado）语音引擎链接</button>
-            <button style="margin-top: 20px; margin-bottom: 20px;" type="button" class="btn btn-primary" onclick='createIReadUrl()'>生成爱阅记导入链接</button>
+            <button id="previewButton" type="button" class="btn btn-secondary" onclick="preview()">测试</button>
+            <button style="margin-top: 10px; margin-bottom: 10px;" type="button" class="btn btn-primary" onclick='createLegadoUrl()'>生成阅读（legado）语音引擎链接</button>
+            <button type="button" class="btn btn-primary" onclick='createIReadUrl()'>生成爱阅记导入链接</button>
           </div>
         </div>
       </div>
